@@ -39,10 +39,11 @@ function App() {
   
     window.fbAsyncInit = function () {
       window.FB.init({
-        appId: "here your app id", 
+        // appId: "here your app id", 
+        appId: "1208522004276568", 
         cookie: true, 
         xfbml: true, 
-        version: "v19.0", 
+        version: "v23.0", 
       });
 
       facebookSDKLoaded = true;
@@ -77,7 +78,8 @@ function App() {
           }
         },
         {
-          config_id: "here yoyr config id",
+          // config_id: "here yoyr config id",
+          config_id: "631627423320438",
           response_type: "code",
           override_default_response_type: true,
           extras: {
