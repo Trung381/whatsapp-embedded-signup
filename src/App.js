@@ -84,6 +84,7 @@ function App() {
           config_id: "698553073221396", // của trung
           response_type: "code",
           override_default_response_type: true,
+          redirect_uri: 'https://whatsapp-embedded-signup.vercel.app/',
           extras: {
             sessionInfoVersion: 2,
           },
