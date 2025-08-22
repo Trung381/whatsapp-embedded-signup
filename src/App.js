@@ -40,8 +40,8 @@ function App() {
     window.fbAsyncInit = function () {
       window.FB.init({
         // appId: "here your app id", 
-        // appId: "1208522004276568", 
-        appId: "1566213257685726", // của trung
+        appId: "1208522004276568", 
+        // appId: "1566213257685726", // của trung
         cookie: true, 
         xfbml: true, 
         version: "v23.0", 
@@ -80,8 +80,8 @@ function App() {
         },
         {
           // config_id: "here yoyr config id",
-          // config_id: "631627423320438",
-          config_id: "698553073221396", // của trung
+          config_id: "631627423320438",
+          // config_id: "698553073221396", // của trung
           response_type: "code",
           override_default_response_type: true,
           redirect_uri: 'https://whatsapp-embedded-signup.vercel.app/',
